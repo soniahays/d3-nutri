@@ -1,0 +1,70 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color:#777;
+}
+.sneak-peak {
+	border-radius: 50%;
+}
+
+.cucumber {
+	background-image: url('./img/cucumber.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.chart {
+	float: left;
+}
+
+.controls {
+	clear: left;
+}
+
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: #fff;
+}
+
+.container {
+	background: #fff;
+	border-radius: 4px;
+	width: 100px;
+	height: 272px;
+	float: left;
+	margin: 15px;
+	text-align: center;
+}
+
+.increment, 
+.decrement {
+    opacity: 0.2;
+    width: 64px;
+    height: 64px;
+}
+
+.decrement {
+	background: url("http://frolovoleg.ru/images/decrement.svg") no-repeat center;
+}
+
+.increment {
+    background: url("http://frolovoleg.ru/images/increment.svg") no-repeat center;
+}
+
+.display, 
+.value {
+	font-size: 28px;
+}
+
+.value {
+    line-height: 50px;
+    color: #bbb;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}

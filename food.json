@@ -1,0 +1,8 @@
+[
+	{"name":"persian cucumber", "qty" : 1, "sugestedServing": "1 cucumber", "calories":18, "protein": 0, "totalFat": 0, "totalCarbs": 4, "sugar": 0},
+	{"name":"almond", "qty" : 1,  "sugestedServing": "13 kernels", "calories": 90, "protein": 3, "totalFat": 8, "totalCarbs": 3, "sugar": 1},
+	{"name":"non-fat plain greek yogurt fage", "qty" : 1, "sugestedServing": "1 container (170g)", "calories":100, "protein": 18, "totalFat": 0, "totalCarbs": 7, "sugar": 7},
+	{"name":"persian cucumber", "qty" : 1, "sugestedServing": "1 cucumber", "calories":18, "protein": 0, "totalFat": 0, "totalCarbs": 4, "sugar": 0},
+	{"name":"almond", "qty" : 1,  "sugestedServing": "13 kernels", "calories": 90, "protein": 3, "totalFat": 8, "totalCarbs": 3, "sugar": 1},
+	{"name":"non-fat plain greek yogurt fage", "qty" : 1, "sugestedServing": "1 container (170g)", "calories":100, "protein": 18, "totalFat": 0, "totalCarbs": 7, "sugar": 7}
+]
