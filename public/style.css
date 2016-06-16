@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 24px;
   color:#777;
 }
 .sneak-peak {
@@ -40,7 +40,7 @@ body {
 	text-align: center;
 }
 
-.increment, 
+.increment,
 .decrement {
     opacity: 0.2;
     width: 64px;
@@ -55,7 +55,7 @@ body {
     background: url("http://frolovoleg.ru/images/increment.svg") no-repeat center;
 }
 
-.display, 
+.display,
 .value {
 	font-size: 28px;
 }
