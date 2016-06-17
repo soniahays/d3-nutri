@@ -1,12 +1,15 @@
-(function() {
+(function(nutriD3) {
+    // Build Controls.
+    var nutrientContainerArr = document.querySelectorAll('.container');
+
     $.ajax({
         url: '/data'
     }).then(function(data) {
         nutrientsData = data.nutrients;
         foodsData = data.foods;
         filteredFoodsData = foodsData;
-        buildGraph(nutrientsData);
-        buildTable(filteredFoodsData, tableHeaders);
+        nutriD3.buildGraph(nutrientsData);
+        nutriD3.buildTable(filteredFoodsData, tableHeaders);
         init();
     });
 
@@ -61,7 +64,7 @@
         updateNutrient(updatedNutrient);
         updateDisplay(updatedNutrient);
         updateNutrientUI(updatedNutrient);
-        buildGraph(nutrientsData);
+        nutriD3.buildGraph(nutrientsData);
         foodFilter(updatedNutrient);
     }
 
@@ -100,4 +103,4 @@
             }
         }
     }
-})();
+})(window.nutriD3 = window.nutriD3 || {});
